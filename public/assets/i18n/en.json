@@ -1,0 +1,22 @@
+{
+  "global": {
+    "title": "Web Portfolio",
+    "btn": {
+      "downloadCVEs": "Download CV in Spanish",
+      "downloadCVEn": "Download CV in English",
+      "contactMe": "Contact Me"
+    },
+    "navbar": {
+      "home": "Home",
+      "aboutMe": "About Me",
+      "skills": "Skills",
+      "formation": "Education",
+      "portfolio": "Portfolio",
+      "contactMe": "Contact Me"
+    }
+  },
+  "home": {
+    "rol": "Frontend Developer",
+    "description": "Explore my digital world where code and creativity come together to create captivating web experiences and impactful solutions."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "global": {
+    "title": "Portafolio Web",
+    "btn": {
+      "downloadCVEs": "Descargar CV en Español",
+      "downloadCVEn": "Descargar CV en Inglés",
+      "contactMe": "Contáctame"
+    },
+    "navbar": {
+      "home": "Inicio",
+      "aboutMe": "Sobre mí",
+      "skills": "Habilidades",
+      "formation": "Formación",
+      "portfolio": "Portafolio",
+      "contactMe": "Contáctame"
+    }
+  },
+  "home": {
+    "rol": "Desarrollador Frontend",
+    "description": "Explora mi mundo digital donde el código y la creatividad se unen para crear experiencias web cautivadoras y soluciones impactantes."
+  }
+}

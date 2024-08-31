@@ -1,0 +1,40 @@
+.parallax-section {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* Tamaño completo de la pantalla */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+#home {
+  background-image: url('../../public/img/1.jpg');
+}
+
+#aboutMe {
+  background-image: url('../../public/img/2.jpg');
+}
+
+#skills {
+  background-image: url('../../public/img/3.jpg');
+}
+
+#formation {
+  background-image: url('../../public/img/4.jpg');
+}
+
+#portfolio {
+  background-image: url('../../public/img/5.jpg');
+}
+
+#contactMe {
+  background-image: url('../../public/img/2.jpg');
+}
+
+/* Más estilos para otras secciones */
