@@ -1,0 +1,45 @@
+<header
+  [class]="isScrolled ? 'backdrop-blur-sm bg-white/30 ' : 'bg-transparent'"
+  class="fixed w-full top-0 left-0 z-50 transition-all duration-300"
+>
+  <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+    <!-- Logo -->
+    <a href="#" class="text-xl font-bold text-white">MyApp</a>
+
+    <!-- Botón de Hamburguesa -->
+    <button
+      class="lg:hidden text-white focus:outline-none"
+      aria-label="Toggle navigation"
+      (click)="toggleMenu()"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16m-7 6h7"
+        />
+      </svg>
+    </button>
+
+    <!-- Menú -->
+    <nav
+      [class.hidden]="!isMenuOpen"
+      class="absolute lg:static top-14 left-0 right-0 bg-blue-600/70 backdrop-blur-md lg:bg-transparent lg:flex lg:items-center lg:gap-4"
+    >
+      <ul class="flex flex-col lg:flex-row gap-4 p-4 lg:p-0">
+        <li><a href="#" class="hover:text-gray-300 text-white">Inicio</a></li>
+        <li>
+          <a href="#" class="hover:text-gray-300 text-white">Servicios</a>
+        </li>
+        <li><a href="#" class="hover:text-gray-300 text-white">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

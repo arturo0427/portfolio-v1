@@ -12,13 +12,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './features/home/home.component';
 import { AboutMeComponent } from './features/about-me/about-me.component';
+import { HeaderComponent } from './core/components/header/header.component';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutMeComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    AboutMeComponent,
+    HeaderComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
